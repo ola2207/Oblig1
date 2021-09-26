@@ -6,12 +6,16 @@ main {
 	margin: 5%;
 }
 
-ul > li {
+h1 {
+  padding: 2%;
+}
+
+.sidebar > ul > li {
     display: inline;
     margin-left: 20px auto;
     margin right: 20px auto;
     padding-right: 20px;
-  color: red;
+  color: black;
   font-family: helvetica;
   list-style-type: none;
 	text-decoration: none;
@@ -27,7 +31,7 @@ ul > li {
 	z-index: 1;
 	left: 0;
 	overflow-x: hidden;
-    bottom: 0;
+    top: 0;
     width: 100%;
 }
 
