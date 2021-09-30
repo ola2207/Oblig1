@@ -17,14 +17,13 @@ h1 {
 }
 
 .sidebar > ul > li {
-
-    display: inline;
-    margin-left: 20px auto;
-    margin-right: 20px auto;
-    padding-right: 20px;
-  color: black;
-  font-family: helvetica, sans-serif;
-  list-style-type: none;
+	display: inline;
+	margin-left: 20px auto;
+	margin-right: 20px auto;
+	padding-right: 20px;
+	color: black;
+	font-family: helvetica, sans-serif;
+	list-style-type: none;
 	text-decoration: none;
 	text-transform: uppercase;
 }
@@ -39,18 +38,6 @@ h1 {
 	overflow-x: hidden;
 	top: 0;
 	width: 100%;
-}
-
-.class_personer {
-	width: 33%;
-	height: auto;
-	text-align: center;
-	float: left;
-	border-color: lightblue;
-	border: solid 2px;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	margin-top: 100px;
 }
 
 .class_bilder {
@@ -79,84 +66,87 @@ h1 {
 	background-color: rgba(122, 143, 173, 0.178);
 }
 
+.class_paragraph {
+	font-family: Helvetica, sans-serif;
+	height: auto;
+	float: left;
+	padding: 20px;
+}
 
-.class_personer{
-    width: 33%;
-    height: auto;
-    text-align: center;
-    float: left;
-    border-color: lightblue;
-    border: solid 2px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin-top: 100px;
-    margin-left: auto;
+.class_bilder {
+	max-height: 25%;
+	max-width: 25%;
+	border: 4px solid grey;
 }
-.class_bilder{
-    max-height:25%;
-    max-width: 25%;
-    border: 4px solid grey;
+
+#div_Homepage {
+	display: inline;
 }
-#div_Homepage{
-    display: inline;
+
+header {
+	width: 100%;
+	position: absolute;
+	background-color: lightblue;
+	text-align: center;
+	text-transform: uppercase;
 }
-header{
-    width: 100%;
-    position: absolute;
-    background-color: lightblue;
-    text-align: center;
-    text-transform: uppercase;
-    
+
+.class_personer2 {
+	width: 60%;
+	height: auto;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-top: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: Helvetica, sans-serif;
+	background-color: lightgrey;
+	margin-bottom: 30px;
 }
-.class_personer2{
-    width: 60%;
-    height: auto;
-    text-align: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin-top: 100px;
-    margin-left: auto;
-    margin-right: auto;
-    font-family: Helvetica, sans-serif;
-    background-color: lightgrey;
-    margin-bottom: 30px;
+
+#div_Homepage2 {
+	display: inline;
 }
-#div_Homepage2{
-    display: inline;
+
+#hobbylist {
+	list-style-type: none;
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration-color: lightblue;
+	padding-right: 30px;
 }
-#hobbylist{
-    list-style-type: none;
-    text-align: center;
-    text-transform: uppercase;
-    text-decoration-color: lightblue;
-    padding-right: 30px;
+
+#p_hobby {
+	text-decoration-line: underline;
 }
-#p_hobby{
-    text-decoration-line: underline;
+
+#p_description {
+	margin-left: 20px;
+	margin-right: 20px;
 }
-#p_description{
-    margin-left: 20px;
-    margin-right: 20px;
+
+#home_body {
+	background-image: url(images/kulebakgrunn.jpeg);
+	background-position: center center;
+	max-width: 100vw;
+	max-height: 100vh;
 }
-#home_body{
-    background-image: url(images/kulebakgrunn.jpeg);
-    background-position: center center;
-    max-width: 100vw;
-    max-height: 100vh;
+
+a:link {
+	text-decoration: none;
+	color: black;
 }
-a:link{
-    text-decoration: none;
-    color: black;
-}
-a:hover{
-    text-decoration: underline;
-    color: dimgrey;
+
+a:hover {
+	text-decoration: underline;
+	color: dimgrey;
 }
 
 #div_Portfolio {
-    margin: 60px 10px 30px 80px;
+	margin: 60px 10px 30px 80px;
 	float: left;
 	width: 60%;
-    text-emphasis-color: lightblue;
-    font-family: Helvetica;
+	text-emphasis-color: lightblue;
+	font-family: Helvetica;
 }
