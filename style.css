@@ -77,8 +77,8 @@ h1 {
 }
 
 .class_bilder {
-	max-height: 25%;
-	max-width: 25%;
+	max-height: 25% ;
+	max-width: 25% ;
 	border: 4px solid grey;
 }
 
@@ -160,7 +160,7 @@ a {
 #div_Portfolio {
 	margin: 60px 10px 30px 80px;
 	float: left;
-	width: 60%;
+	width: 42%;
 	text-emphasis-color: lightblue;
 	font-family: Helvetica;
 }
@@ -215,13 +215,18 @@ a {
 }
 
 #div_About {
-	margin: 60px 10px 30px 80px;
+	margin: left 80px auto;
+	margin: right 20px auto;
 	width: 60%;
-	text-emphasis-color: lightblue;
 	font-family: Helvetica;
 }
 
 #header_hr {
 	text-emphasis-color: darkblue;
 	font-family: Helvetica;
+}
+
+.class_portobilder {
+	height: auto ;
+	width: 90% ;
 }
