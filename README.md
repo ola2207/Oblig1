@@ -1,3 +1,3 @@
 # Oblig1
 
-portfolio :)
+portfolio :(
