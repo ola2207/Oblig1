@@ -223,3 +223,10 @@ a {
 	text-emphasis-color: darkblue;
 	font-family: Helvetica;
 }
+
+.nolist{
+    list-style: none;
+    margin-right: 100px auto;
+}
+
+
