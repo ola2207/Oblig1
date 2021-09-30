@@ -1,5 +1,6 @@
 body {
 	margin: 0;
+	background-color: #393939;
 }
 
 main {
@@ -9,6 +10,7 @@ main {
 h1 {
 	margin-top: 100px;
 	text-align: center;
+  color: white;
 }
 
 #header_hr {
@@ -62,7 +64,7 @@ h1 {
 	width: 45%;
 	text-align: center;
 	font-family: Helvetica;
-	background-color: rgba(122, 143, 173, 0.178);
+	background-color: rgba(255, 255, 255, 0.3);
 }
 
 .class_paragraph {
@@ -70,6 +72,7 @@ h1 {
 	height: auto;
 	float: left;
 	padding: 20px;
+  color: white;
 }
 
 .class_bilder {
@@ -102,9 +105,9 @@ header {
 	font-family: Helvetica, sans-serif;
 	/*background-color: lightgrey;*/
 	margin-bottom: 30px;
-    background-color: rgba(255, 255, 255, 0.3);
-    animation-name: blur;
-    animation-duration: 6s;
+	background-color: rgba(255, 255, 255, 0.3);
+	animation-name: blur;
+	animation-duration: 6s;
 }
 
 #div_Homepage2 {
@@ -129,12 +132,12 @@ header {
 }
 
 #home_body {
-	background-image: url(images/kulebakgrunn.jpeg);
+	background-image: url(images/background\ image\ 3.png);
 	background-position: center center;
 	max-width: 100vw;
 	max-height: 100vh;
-    animation-name: mymove;
-    /*animation-duration: 20s;
+	animation-name: mymove;
+	/*animation-duration: 20s;
     animation-iteration-count: infinite;*/
 }
 
@@ -147,11 +150,10 @@ a:hover {
 	text-decoration: underline;
 	color: dimgrey;
 }
-a{
-    text-decoration: none;
-    color: inherit;
+a {
+	text-decoration: none;
+	color: inherit;
 }
-
 
 #div_Portfolio {
 	margin: 60px 10px 30px 80px;
@@ -161,42 +163,63 @@ a{
 	font-family: Helvetica;
 }
 
-@keyframes mymove{
-    
-    0%{background-color: white;}
-    12%{background-color: yellow;}
-    24%{background-color: blue;}
-    36%{background-color: green;}
-    48%{background-color: aqua;}
-    60%{background-color: darkmagenta;}
-    72%{background-color: darkred;}
-    84%{background-color: deeppink;}
-    100%{background-color: white;}
+@keyframes mymove {
+	0% {
+		background-color: white;
+	}
+	12% {
+		background-color: yellow;
+	}
+	24% {
+		background-color: blue;
+	}
+	36% {
+		background-color: green;
+	}
+	48% {
+		background-color: aqua;
+	}
+	60% {
+		background-color: darkmagenta;
+	}
+	72% {
+		background-color: darkred;
+	}
+	84% {
+		background-color: deeppink;
+	}
+	100% {
+		background-color: white;
+	}
 }
-@keyframes blur{
-    from{background-color:rgba(255, 255, 255, 0.3); filter: blur(10px);}
-    to{background-color:rgba(255, 255, 255, 0.3); filter: blur(none);}
+@keyframes blur {
+	from {
+		background-color: rgba(255, 255, 255, 0.3);
+		filter: blur(10px);
+	}
+	to {
+		background-color: rgba(255, 255, 255, 0.3);
+		filter: blur(none);
+	}
 }
-.class_bilder1{
+.class_bilder1 {
 	width: 560px;
 	height: auto;
-	
 }
 
-.class_bilder2{
+.class_bilder2 {
 	width: 560px;
 	height: auto;
 }
 
-#div_About{
+#div_About {
 	margin: 60px 10px 30px 80px;
 	width: 60%;
 	text-emphasis-color: lightblue;
 	font-family: Helvetica;
 }
 
-#header_hr{
+#header_hr {
 	text-emphasis-color: darkblue;
 	font-family: Helvetica;
 }
-
