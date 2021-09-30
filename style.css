@@ -156,6 +156,7 @@ a:hover {
 	text-emphasis-color: lightblue;
 	font-family: Helvetica;
 }
+
 @keyframes mymove{
     
     0%{background-color: white;}
@@ -172,3 +173,25 @@ a:hover {
     from{background-color:rgba(255, 255, 255, 0.3); filter: blur(10px);}
     to{background-color:rgba(255, 255, 255, 0.3); filter: blur(none);}
 }
+.class_bilder1{
+	width= 56%;
+	height= 32%;
+}
+
+.class_bilder2{
+	width= 34%;
+	height= 53%;
+}
+
+#div_About{
+	margin: 60px 10px 30px 80px;
+	width: 60%;
+	text-emphasis-color: lightblue;
+	font-family: Helvetica;
+}
+
+#header_hr{
+	text-emphasis-color: darkblue;
+	font-family: Helvetica;
+}
+
