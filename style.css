@@ -110,7 +110,7 @@ header {
     animation-duration: 6s;*/
 }
 
-#div_Homepage2 {
+#main_Homepage2 {
 	display: inline;
 }
 
@@ -226,7 +226,14 @@ a {
 	font-family: Helvetica;
 }
 
+
+.nolist{
+    list-style-position: inside;
+}
+
+
 .class_portobilder {
 	height: auto ;
 	width: 90% ;
 }
+
