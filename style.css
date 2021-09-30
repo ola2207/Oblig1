@@ -124,6 +124,7 @@ header {
 
 #p_hobby {
 	text-decoration-line: underline;
+	font-weight: bold;
 }
 
 #p_description {
