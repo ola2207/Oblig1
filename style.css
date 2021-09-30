@@ -178,13 +178,14 @@ a{
     to{background-color:rgba(255, 255, 255, 0.3); filter: blur(none);}
 }
 .class_bilder1{
-	width= 56%;
-	height= 32%;
+	width: 560px;
+	height: auto;
+	
 }
 
 .class_bilder2{
-	width= 34%;
-	height= 53%;
+	width: 560px;
+	height: auto;
 }
 
 #div_About{
