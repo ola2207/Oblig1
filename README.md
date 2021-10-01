@@ -1,3 +1,3 @@
 # Oblig1
 
-portfolio :(
+By Theodor Jaarvik, Elias Siebke Branæs and Ola Rebne Gustavsen.
