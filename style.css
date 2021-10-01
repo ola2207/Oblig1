@@ -69,11 +69,13 @@ nav {
 }
 
 .class_paragraph {
+	width: 60%;
+	margin: auto;
 	font-family: Helvetica, sans-serif;
 	height: auto;
-	float: left;
-	padding: 20px;
-	color: white;
+	padding: 20px 20px 20px 20px;
+	color: black;
+	background-color: rgba(255, 255, 255, 0.3);
 }
 
 .class_bilder {
