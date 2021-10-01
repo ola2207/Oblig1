@@ -4,7 +4,7 @@ body {
 }
 
 main {
-	margin: 5%;
+	margin: 5% auto;
 }
 
 h1 {
@@ -145,14 +145,14 @@ header {
     animation-iteration-count: infinite;*/
 }
 
-a:link {
+nav > a:link {
 	text-decoration: none;
 	color: white;
 }
 
 a:hover {
 	text-decoration: underline;
-	color: dimgrey;
+	color: rgb(251, 255, 0);
 }
 a {
 	text-decoration: none;
@@ -221,7 +221,6 @@ a {
 	margin: right 20px auto;
 	width: 60%;
 	font-family: Helvetica;
-	
 }
 
 .nolist {
